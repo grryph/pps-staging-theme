@@ -1,0 +1,215 @@
+ #my-account-menu-tab.layout-simple .myaccount-menu li{
+	flex: 50%;
+	margin: 0 !important;
+}
+
+#my-account-menu-tab.layout-simple .myaccount-menu li a{
+	width: 100%;
+}
+
+.woocommerce-account main .woocommerce, .page-audio-player main {
+	max-width: 100vw;
+	margin-left: calc(-50vw + 50%) !important;
+	margin-right: calc(-50vw + 50%) !important;
+	padding:1rem;
+}
+
+.blockUI.blockOverlay{
+	max-width: 100vw !important;
+
+}
+
+.woocommerce-account main .woocommerce > *{
+	max-width: var(--wp--style--global--wide-size);
+	margin: auto;
+}
+.page-my-account .woocommerce > *, .page-my-courses .woocommerce {
+	max-width: var(--wp--style--global--wide-size);
+
+}
+
+/* Order Details Page STyles */
+
+/* HIDE WEBINAR REGISTRANTS INFO FROM ORDER DETAILS */
+
+.woocommerce-account section.woocommerce-gotowebinar-details, .woocommerce-view-order .woocommerce-MyAccount-content h2:not(h2.woocommerce-order-details__title, h2.woocommerce-column__title) {
+
+	display: none !important;
+
+}
+
+// .woocommerce-table--order-details tfoot tr th {
+// 	text-align: right;
+// }
+
+.woocommerce-table--order-downloads, .woocommerce-orders-table, .woocommerce-table--order-details{
+	border-collapse: separate;
+	border-spacing: 0 3rem;
+	width: 100%;
+	text-align: left;
+}
+
+.woocommerce-table--order-downloads .download-file{
+	display: flex;
+	justify-content: space-between;
+}
+.woocommerce-form-row{
+	flex: 41%;
+	margin: 5px 10px;
+} 
+
+@media screen and (max-width:1300px){
+
+.wlr-myaccount-page {
+
+
+	max-width: 900px !important;
+
+}
+
+}
+
+@media screen and (max-width:950px){
+
+	.wlr-myaccount-page {
+	
+	
+		max-width: 550px !important;
+	
+	}
+	
+	
+	
+	 }
+
+@media screen and (max-width:600px){
+
+	.wlr-myaccount-page {
+	
+	
+		max-width: 200px !important;
+	
+	}
+	
+
+	.woocommerce-form-row{
+		flex: 100%;
+	}
+
+	.u-columns.woocommerce-Addresses.col2-set.addresses{
+		flex-direction: column;
+	}
+
+	.woocommerce-table--order-downloads a.has-small-font-size {
+
+		font-size: smaller !important;
+
+	}
+
+	.woocommerce-page table.shop_table td {
+
+		padding:0.5rem;
+
+	}
+
+}
+.woocommerce-form-row label {
+	display: block;
+}
+
+.woocommerce-EditAccountForm.edit-account {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.woocommerce-form-row > span {
+	display: block
+}
+
+.woocommerce-EditAccountForm.edit-account fieldset{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.u-columns.woocommerce-Addresses.col2-set.addresses{
+	display: flex;
+}
+
+.woocommerce-Address{
+	flex: 1;
+}
+.woocommerce-EditAccountForm > p:nth-child(12){
+	width: 100%;
+}
+
+.woocommerce-orders-table__cell.woocommerce-orders-table__cell-order-actions::before {
+	display: none;
+}
+
+/* HIDE MARK AS COMPLETE ON MY COURSES/SINGLE COURSE */
+
+.page-my-courses .course-content .entry-actions,
+.page-my-courses .course-content .sensei-block-wrapper,
+.course .progress, 
+.course .meter, 
+.course .course-meta, 
+.single-lesson .lesson_button_form {
+	
+	display:none !important;
+	
+}
+
+.page-my-courses li.active{
+	background-color: var(--ywcmap-items-background-color,#fff) !important;
+}
+
+
+.page-my-courses li.active:hover{
+	background-color: var(--ywcmap-items-background-color-active,#fff) !important;
+}
+
+.page-my-courses .yith-my-courses{
+	background-color: var(--ywcmap-items-background-color-active,#fff);
+}
+
+#user-course-status-toggle{
+	justify-content: space-between;
+	border:0;
+	background-color: #efeaea;
+	gap: 2px;
+}
+
+#user-course-status-toggle a{
+	margin: 0;
+	flex: 1;
+	text-align: center;
+}
+
+#user-course-status-toggle a.active{
+	background-color: #c0c0c0;
+}
+
+#user-course-status-toggle a:hover {
+
+	background-color: #CD3B33;
+	text-decoration: none;
+}
+
+.single-course .wp-block-sensei-lms-course-outline span {
+
+	font-weight: 700;
+
+}
+
+.page-my-account main input:not([type="radio"], .payment_box, .input-checkbox){
+	background: rgba(53,52,96,.1);
+	border: 0;
+	display: inline-block;
+	font-size: 17px;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 10px;
+	width: 100%;
+	box-sizing: border-box;
+}

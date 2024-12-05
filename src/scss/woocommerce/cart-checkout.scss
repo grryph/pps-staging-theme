@@ -1,0 +1,545 @@
+/* Cart / Checkout */
+
+.woocommerce-page.page-cart .woocommerce-cart-form #coupon_code {
+
+    height: 60px !important;
+
+}
+
+body.woocommerce-checkout input:focus {
+
+    outline:unset !important;
+
+}
+
+.woocommerce-page.woocommerce-checkout .input-text {
+
+    font-size: unset;
+
+}
+
+.woocommerce-page.woocommerce-checkout .woocommerce-invalid.woocommerce-invalid-required-field span.woocommerce-input-wrapper input {
+
+    background-color: unset !important;
+
+}
+
+.woocommerce-page.woocommerce-checkout .woocommerce-invalid.woocommerce-invalid-required-field span.woocommerce-input-wrapper {
+
+    background-color: rgba(205, 59, 51, .3) !important;
+
+}
+
+body.woocommerce-checkout .wc-block-order-confirmation-status, body.woocommerce-checkout .wc-block-order-confirmation-summary, body.woocommerce-checkout .wc-block-order-confirmation-summary, body.woocommerce-checkout .wc-block-order-confirmation-totals-wrapper, body.woocommerce-checkout .woocommerce-order-confirmation-address-wrapper {
+
+    padding:1rem;
+
+}
+
+body.woocommerce-checkout textarea {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.alignfull .cart .product-thumbnail img {
+
+    width: 32px;
+    height: auto;
+
+}
+
+body.woocommerce-cart .woocommerce, body.woocommerce-checkout .woocommerce {
+
+    max-width: 1000px;
+
+}
+
+body.woocommerce-checkout.woocommerce-order-received .woocommerce {
+
+    max-width: 1200px;
+
+}
+
+
+body.woocommerce-checkout .woocommerce-order-sensei-courses ul, body.woocommerce-view-order .woocommerce-order-sensei-courses ul {
+
+    list-style-type:none;
+    padding:0;
+
+}
+
+body.woocommerce-checkout ul.payment_methods {
+
+    display: flex;
+    // justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+
+}
+
+body.woocommerce-checkout .ppc-button-wrapper {
+
+    background: #f9f9f9;
+
+}
+
+body.woocommerce-checkout ul.payment_methods li {
+
+    padding:1rem;
+    display: inline-block;
+    max-width: 50%;
+    width: 50%;
+}
+
+body.woocommerce-checkout .woocommerce-info {
+
+    background: rgba(53, 52, 96, 0.1);
+    margin:2rem 0;
+    padding:2rem;
+    font-weight: 700;
+
+}
+
+body.woocommerce-checkout .woocommerce-info a {
+
+    font-weight: 400;
+
+}
+
+body.woocommerce-checkout .woocommerce-billing-fields label, body.woocommerce-checkout .woocommerce-account-fields label, body.woocommerce-checkout .webinar-checkout-heading label, body.woocommerce-checkout .wc_payment_method label:not(.payment_box label), body.woocommerce-checkout .woocommerce-thankyou-order-received, .woocommerce-order-received .woocommerce-order h2.woocommerce-column__title, .woocommerce-view-order .woocommerce-customer-details h2.woocommerce-column__title, .woocommerce-account .woocommerce-customer-details h2.woocommerce-column__title, .product-name a {
+
+    font-weight: 700;
+
+}
+
+body.woocommerce-checkout  .required, .woocommerce ul.woocommerce-error, .page-id-350327 .gform-theme--framework .gform_required_legend .gfield_required, .page-id-350327 .gform-theme--framework .gfield_validation_message, .page-id-350327 .gform-theme--framework .gform_validation_errors .gform_submission_error, .page-id-350327 .gform-theme--framework .gform_validation_errors ol a, .webinar-checkout-heading h3{
+
+    color:#CD3B33;
+    padding-inline-start:0;
+    font-weight: 700;
+
+}
+
+body.woocommerce-checkout .woocommerce-order-sensei-courses li a, body.woocommerce-page .woocommerce-order-sensei-courses li a, .woocommerce-page td.subscription-actions, .woocommerce-page td.subscription-actions, .woocommerce-page .subscription_details .button, body.woocommerce-checkout .shop_table .product-name a.button , body.woocommerce-account .shop_table .product-name a.button, a.view-downloads-button, a.view-orders-button {
+
+    background-color: var(--wp--preset--color--foreground);
+    border-width: 0;
+    color: var(--wp--preset--color--background);
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: calc(0.667em + 2px) calc(1.333em + 2px);
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    display: inline-block !important;
+    margin:0.5rem 0;
+
+}
+
+a.view-orders-button {
+
+    background-color: #CD3B33 !important;
+
+}
+
+.woocommerce-page td.subscription-actions a {
+
+    color:#fff !important;
+    margin-bottom: 0 !important;
+
+
+}
+
+
+.woocommerce-order-sensei-courses li a:hover, .woocommerce-page td.subscription-actions:hover, .woocommerce-page .subscription_details .button:hover, body.woocommerce-checkout .shop_table .product-name a.button:hover , body.woocommerce-account .shop_table .product-name a.button:hover, a.view-downloads-button:hover {
+
+    background-color: #CD3B33 !important;
+    color:#fff !important;
+
+}
+
+a.view-orders-button:hover {
+
+    background-color: var(--wp--preset--color--foreground) !important;
+    color:#fff !important;
+
+}
+
+// div.blockUI.blockOverlay {
+
+//     opacity: 0.25;
+//     max-width: 100%;
+//     width:1920px !important;
+
+// }
+
+body.woocommerce-checkout.woocommerce-page table.shop_table {
+
+    width: 100%;
+
+}
+
+
+body.woocommerce-checkout .button.webinar-checkout-heading {
+
+    font-weight: 700;
+    margin:1rem 0;
+    background-color: var(--wp--preset--color--foreground);
+    border-width: 0;
+    color: var(--wp--preset--color--background);
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: calc(0.667em + 2px) calc(1.333em + 2px);
+    text-decoration: none;
+
+}
+
+body.woocommerce-checkout .woocommerce-additional-fields, body.woocommerce-checkout .woocommerce-checkout-payment, body.woocommerce-checkout .ppc-button-wrapper {
+
+    background: #f9f9f9;
+    padding:1rem;
+
+}
+
+body.woocommerce-checkout .woocommerce-checkout-payment .place-order {
+
+    margin-bottom: 3rem;
+
+}
+
+body.woocommerce-checkout button#place_order {
+
+    float: right;
+    
+}
+
+body.woocommerce-checkout .woocommerce-billing-fields p, body.woocommerce-checkout .woocommerce-account-fields p {
+
+    width: 48%;
+	display: grid;
+
+}
+
+body.woocommerce-checkout .shop_table .product-name a.button,body.woocommerce-account .shop_table .product-name a.button , body.woocommerce-order-details .shop_table .product-name a.button {
+
+display: block !important;
+
+}
+
+@media screen and (max-width:900px) {
+
+    body.woocommerce-checkout ul.payment_methods {
+
+        display: block;
+
+    }
+
+    body.woocommerce-checkout ul.payment_methods li {
+
+        padding:1rem;    
+        max-width: unset;
+        width: unset;
+    }
+
+}
+
+@media screen and (min-width:600px){
+.woocommerce-account-fields .create-account, .woocommerce-billing-fields__field-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	justify-content: space-between;
+}
+}
+@media screen and (max-width:600px){
+
+
+    .tax-product_cat ul.products-block-post-template {
+
+        display: block !important;
+
+    }
+    
+	body.woocommerce-checkout .woocommerce-billing-fields p, body.woocommerce-checkout .woocommerce-account-fields p {
+		width: 100%;
+	}
+		
+}
+
+body.woocommerce-checkout input:not(body.woocommerce-checkout input[type='checkbox'], body.woocommerce-checkout  main .woocommerce-checkout-payment input), body.woocommerce-cart .cart {
+
+    width: 100%;
+
+} 
+
+body.woocommerce-checkout .woocommerce-additional-fields__field-wrapper h3   {
+
+    font-size: 1.5rem;
+    color:#CD3B33;
+
+}
+
+body.woocommerce-checkout textarea[name='order_comments'] {
+
+    width: 200px;
+    display: block;
+
+}
+
+body.woocommerce-cart .woocommerce-message {
+
+    padding: 2rem;
+    text-align: center;
+
+}
+
+
+body.woocommerce-cart .actions button[name='update_cart'] {
+
+    float: right;
+
+}
+
+body.woocommerce-cart .actions .coupon {
+
+    float: left;
+
+}
+
+body.woocommerce-cart table th {
+
+    text-align: left;
+
+}
+
+body.woocommerce-cart table th.product-quantity, body.woocommerce-cart table th.product-subtotal, body.woocommerce-cart table td.product-quantity, body.woocommerce-cart table td.product-subtotal, .woocommerce-checkout .shop_table tfoot td, .woocommerce-view-order .shop_table tfoot td {
+
+    text-align: right;
+
+}
+
+.woocommerce-page .woocommerce-cart-form #coupon_code, body.woocommerce-account .woocommerce-form-login input.woocommerce-form__input-checkbox, .woocommerce-checkout input#show_form, .woocommerce-checkout input#mailchimp_woocommerce_newsletter, .woocommerce-checkout input#hide_form {
+	height: unset !important;
+    line-height: unset !important;
+    width: unset !important;
+}
+
+body.woocommerce-cart .coupon button[name='apply_coupon'], 
+body.woocommerce-cart button[name='update_cart'], 
+body.woocommerce-cart .coupon input[name='coupon_code'], 
+body.woocommerce-cart .checkout-button:not(.wp-block-search__button), 
+body.woocommerce-cart .quantity input.qty, 
+body.woocommerce-cart .woocommerce-message a.button, 
+body.woocommerce-checkout main input:not(body.woocommerce-checkout input[type='checkbox'] input[type='search'], body.woocommerce-checkout  main .woocommerce-checkout-payment input, body.woocommerce-checkout main .woocommerce-form-login input), 
+body.woocommerce-checkout main button, body .woocommerce-message a.button {
+
+    font-size: 17px;
+    line-height: 60px;
+    height: 60px;
+    padding: 0px 10px 0px 10px;
+    border: 0;
+    display: inline-block;
+
+}
+
+body.woocommerce-checkout .woocommerce-checkout-payment fieldset {
+
+    border:none;    
+
+}
+
+
+body.woocommerce-checkout .woocommerce-Price-amount, body.woocommerce-view-order .woocommerce-Price-amount {
+
+    font-size: 1.5rem;
+
+}
+
+
+body.woocommerce-cart .checkout-button, body.woocommerce-checkout button[name='woocommerce_checkout_place_order'] {
+
+    font-size: 22px;
+
+}
+
+body.woocommerce-checkout .woocommerce, body.woocommerce-account .woocommerce{
+
+    font-size: smaller
+
+
+}
+
+body.woocommerce-cart .coupon input[name='coupon_code'], 
+body.woocommerce-cart .quantity input.qty, 
+body.woocommerce-checkout .woocommerce-billing-fields input,  
+body.woocommerce-checkout main input:not(body.woocommerce-checkout input[type='checkbox']), 
+body.woocommerce-checkout  main .selection span.select2-selection.select2-selection--single {
+
+    background:rgba(53, 52, 96, 0.1);
+
+}
+
+body.woocommerce-cart .coupon input[name='coupon_code']:focus, body.woocommerce-cart .quantity input.qty:focus, body.woocommerce-checkout input:focus {
+
+ 
+    outline: 2px solid #353460; 
+
+
+}
+
+
+.cart_totals>h2{
+	text-align: left;
+	max-width: 400px;
+	margin-left: auto
+}
+
+body.woocommerce-cart .cart_totals .shop_table {
+
+	height: auto;
+	margin: 2rem 0;
+	max-width: 400px;
+	margin-left: auto;
+	
+}
+
+
+.cart_totals .shop_table th:after{
+	content: ":";
+	margin-right: 1rem;
+}
+
+.wc-proceed-to-checkout{
+	text-align: right;
+}
+
+.woocommerce-input-wrapper{
+	display: grid;
+	align-content: end;
+}
+
+// Checkout table styling
+ 
+.cart-subtotal>td, 
+.cart-discount>td,
+.order-total>td,
+.product-total{
+	text-align: right;
+}
+
+.woocommerce-checkout .woocommerce-Price-amount{
+	margin-right: 0;
+}
+
+body.woocommerce-checkout th.product-name, 
+body.woocommerce-checkout tr.cart-subtotal, 
+body.woocommerce-checkout tr.cart-total,
+.cart-discount>th,
+.order-total>th{
+
+    text-align: left;
+
+}
+
+/* Order Details Page Styles */
+
+.woocommerce ul {
+
+    list-style-type:none;
+
+}
+
+
+
+.woocommerce-order-received .woocommerce-order-overview li {
+
+    margin:1rem;
+
+}
+
+.woocommerce-page.woocommerce-order-received .woocommerce-customer-details address, body.woocommerce-view-order .woocommerce-customer-details address {
+
+    padding:1rem 0;
+    width:100%;
+
+}
+
+.woocommerce-order-received .woocommerce-order h2.woocommerce-column__title, .woocommerce-account .woocommerce-customer-details h2.woocommerce-column__title, .woocommerce-view-order .woocommerce-customer-details h2.woocommerce-column__title  {
+
+    margin:2rem 0 0 0;
+    font-size: 1.5rem;
+
+}
+
+@media screen and (max-width:400px) {
+
+    .woocommerce-order-received .woocommerce-order-overview li {
+
+        margin:0;
+    
+    }
+
+    body.woocommerce-checkout .woocommerce-Price-amount, body.woocommerce-view-order .woocommerce-Price-amount {
+
+        font-size: 1.25rem;
+
+    }
+
+    .woocommerce-page.page-cart table.shop_table td {
+
+        padding:0;
+
+    }
+
+
+
+}
+
+/* ORDER NOTES STLYES */
+
+span.bold-order-notes  {
+
+    font-weight: 700;
+
+}
+
+.page-cart ul.products.columns-2{
+	display: flex;
+	gap: 2%;
+	padding: 0;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;;
+}
+
+.page-cart ul.products.columns-2 li.post.product{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 300px;
+	width: 300px;
+	margin: 1rem auto;
+	min-height: 505px;;
+}
+
+.page-cart ul.products.columns-2 li.post.product img:not(.woocommerce-cart-form .product-thumbnail img){
+	width: 100%;
+}
+
+.page-cart ul.products.columns-2 li.post.product h2{
+	padding: 1rem;
+}
+
+.page-cart .cart-collaterals{
+	display: flex;
+	flex-direction: column-reverse;
+}
+/* Hide Add to Cart on Related Products */
+
+// .single-product .wp-block-woocommerce-related-products .add_to_cart_button {
+
+// 	display: none;
+
+// }

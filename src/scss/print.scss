@@ -1,0 +1,68 @@
+@media print{
+	
+
+	body{
+		background-color: #ffff;
+		color: #000;
+	}
+
+	.non-printable{
+		display: none;
+	}
+	.printable{
+		font-size: 0.8rem;
+		padding: 0;
+	}
+
+	.printable h1,
+	.printable h2,
+	.printable h3,
+	.printable h4,
+	.printable p{
+		margin: 0.5rem 0;
+	}
+	
+	.printable .wp-block-kadence-rowlayout{
+		display: none
+    }
+	
+	.printable h1.wp-block-heading{
+		display: none;
+	}
+	
+	footer, #mc_embed_signup, header{
+		display: none;
+	}
+
+	.xoo-wsc-markup{display: none;}
+	
+	p {
+		color: #000;
+	}
+
+	/* Monthly Forecast Print Styles */
+
+	.kb-row-layout-wrap, .wp-block-group-is-layout-flow, h1.wp-block-heading {
+
+		display: none !important;
+		
+
+	}
+
+	.wp-block-group-is-layout-flow .kb-row-layout-wrap.gcn {
+
+		display: block !important;
+
+	}
+
+	p {
+
+		font-size: 12px !important;
+
+	}
+	
+	.wp-site-blocks .wp-block-group .wp-block-group:first-child{
+		display: block;
+	}
+	
+}

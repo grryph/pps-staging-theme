@@ -1,0 +1,60 @@
+//--------------------------------------------------------------
+// WordPress Alignments
+//--------------------------------------------------------------
+
+.alignleft {
+	@apply float-left mb-16 mr-16;
+}
+
+.alignright {
+	@apply float-right mb-16 ml-16;
+}
+
+.aligncenter {
+	@apply my-16 mx-auto;
+	margin-bottom: unset;
+}
+
+.alignnone {
+	@apply mb-16;
+}
+
+.alignfull {
+	@apply left-1/2 relative;
+}
+
+.entry-content .alignwide {
+	margin-left  : -80px;
+	margin-right : -80px;
+}
+.entry-content .alignfull {
+	margin-left  : calc( -100vw / 2 + 100% / 2 );
+	margin-right : calc( -100vw / 2 + 100% / 2 );
+	max-width    : 100vw;
+}
+.alignfull>img, img.alignfull {
+	width: 100vw;
+}
+
+.is-nowrap{
+	flex-wrap: nowrap;
+}
+
+.is-content-justification-space-between{
+	justify-content: space-between;
+}
+
+.is-content-justification-right{
+	justify-content: flex-end;
+}
+.is-content-justification-space-around{
+	justify-content: space-around;
+}
+
+.is-content-justification-center{
+	justify-content: center;
+}
+
+iframe{
+	max-width: 100%;
+}

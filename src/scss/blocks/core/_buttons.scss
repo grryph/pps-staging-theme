@@ -1,0 +1,40 @@
+.wp-element-button, .wp-block-button__link, button.single_add_to_cart_button{
+	transition: all .5s ease-in-out;
+}
+
+.wp-element-button:hover, .wp-block-button__link:hover, button.single_add_to_cart_button:hover{
+	background-color: var(--wp--preset--color--primary);
+}
+
+button.single_add_to_cart_button{
+	border-width: 0;
+	color: var(--wp--preset--color--background);
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	padding: calc(0.667em + 2px) calc(1.333em + 2px);
+	text-decoration: none;
+}
+
+.has-foreground-background-color .wp-element-button, 
+.has-foreground-background-color .wp-block-button__link,
+.has-foreground-background-color button.single_add_to_cart_button{
+	background-color: var(--wp--preset--color--primary) !important;
+}
+
+
+.has-foreground-background-color .wp-element-button:hover, 
+.has-foreground-background-color .wp-block-button__link:hover,
+.has-foreground-background-color button.single_add_to_cart_button:hover{
+	background-color: var(--wp--preset--color--secondary) !important;
+
+}
+
+.has-primary-background-color .wp-element-button, .has-primary-background-color .wp-block-button__link{
+	background-color: var(--wp--preset--color--foreground);
+}
+
+
+.has-primary-background-color .wp-element-button:hover, .has-primary-background-color .wp-block-button__link:hover{
+	background-color: var(--wp--preset--color--primary);
+}

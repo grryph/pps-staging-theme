@@ -1,0 +1,53 @@
+//--------------------------------------------------------------
+// Global Site Footer
+//--------------------------------------------------------------
+.site-footer
+	.site-info {
+		@apply mx-auto my-0 flex justify-between;
+	}
+
+// footer .has-primary-background-color a:not(footer .has-primary-background-color p:nth-of-type(2) a) {
+
+//     font-size: smaller;
+
+// }
+
+/* Footer Top Arrow */
+
+footer .has-primary-background-color p:nth-of-type(2) a::before{
+
+    content:url('https://thepowerpath.com/wp-content/uploads/2023/05/top.svg');
+    width:30px;
+    height: 30px;
+    display: block;
+    margin:0 auto;
+
+}
+
+footer ul.wp-block-navigation__container {
+
+    gap:2rem;
+
+}
+
+/* Footer Nav Hover Styles */
+
+footer p a {
+
+    color:#fff !important;
+
+}
+
+footer .wp-block-navigation-item__content:hover, footer p a:hover {
+
+    color: #fecb63 !important;
+    text-decoration: none;
+    border-color: #fff;
+
+}
+
+footer .wp-block-buttons {
+
+    padding:1rem;
+
+}

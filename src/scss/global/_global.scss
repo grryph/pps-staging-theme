@@ -1,0 +1,1338 @@
+//--------------------------------------------------------------
+// Global Resets/Overrides
+//--------------------------------------------------------------
+*,
+::after,
+::before {
+	@apply box-border break-words;
+	word-wrap: break-word;
+}
+
+html {
+	scroll-behavior: smooth;
+	overflow-x:hidden;
+}
+
+body{
+	max-width: 100%;
+	// overflow-x:hidden;
+}
+main{
+	overflow-x:hidden;
+}
+
+.xoo-wsc-modal .xoo-wsc-container{
+	z-index: 2;
+}
+
+.xoo-wsc-modal.xoo-wsc-cart-active .xoo-wsc-container{
+	z-index: 999999;
+}
+
+pre {
+	@apply overflow-auto;
+}
+//when mobile menu is open prevent scrolling behind menu
+body.mega-menu-primary-mobile-open{
+	overflow: hidden;
+	height: 100vh;
+}
+
+body {
+	padding-top: 150px;
+}
+@media screen and (max-width:1050px){
+	body{
+		padding-top:130px;
+	}
+}
+//-----------------------------------------
+// Admin Overrides
+//-----------------------------------------
+.block-editor-writing-flow {
+	@apply text-base leading-normal;
+}
+
+
+img:not(.woocommerce-cart-form .product-thumbnail img){
+	max-width: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.flex{
+	display: flex;
+}
+
+.revert-layer img{
+	width: revert-layer;
+}
+
+
+/* Universal Site Styles */
+
+
+/* The Power Path ONe Year Shamanic Studies Program */
+
+.page-id-350327 .gform_required_legend {
+
+    color:#fff;
+
+}
+
+/* Pretty Google Calendar */
+
+.pgcal-branding {
+
+    display: none;
+
+}
+
+.fc-h-event {
+
+    background:#83a6c6;
+    opacity: 100%;
+
+}
+
+.fc .fc-daygrid-day.fc-day-today, .gform_confirmation_wrapper .gform_confirmation_message p {
+
+    background:#fecb63;
+
+}
+
+.fc .fc-button-primary {
+
+    background-color:#353460 !important;
+    transition: 0.3s all ease-in-out;
+
+}
+
+figure.wp-block-image {
+
+    margin-bottom: 0;
+
+}
+
+input,a{
+	box-sizing: border-box;
+}
+
+h2.has-text-align-center:not(h2.has-text-align-center.wp-block-post-title) {
+
+    // background: no-repeat center url('https://thepowerpath.co/wp-content/uploads/2023/05/Heading-lightblue-BKG.svg'); 
+    padding:0.5em 0;
+    font-family: 'Source Sans Pro', sans-serif;
+ 
+}
+
+.has-secondary-background-color a:hover, .services_wrap_jose a:hover, .has-black-background-color a:hover, .pps-services-block a:hover {
+
+    color:#fecb63;
+
+}
+
+.wp-block-post-content:not(.home .wp-block-post-content, .page-shamanic-practitioners .wp-block-post-content){
+
+    padding: 1.5rem;;
+
+}
+
+.related-services figure {
+
+    margin-bottom: 0;
+
+}
+
+.kb-slider-size-fixed .kb-advanced-slide-inner-wrap {
+
+    width: unset !important;
+
+}
+
+.wp-block-getwid-post-carousel.ue-slider-up-small .slick-dotted.slick-slider  {
+
+    padding-bottom:50px;
+
+}
+
+.cat-slider-4up h4 a {
+
+    text-decoration: none;
+    
+}
+
+
+
+/* General Fixes */
+
+/* Hide Courses/Lessons from Search */
+
+.search-results .course, .search-results .lesson, #wc-stripe-payment-request-button-separator, .course-expiration-message {
+
+    display: none !important;
+
+}
+
+.woocommerce-cart-form .product-thumbnail img {
+
+    width:unset !important;
+    height:150px;
+
+}
+
+.wp-block-search__input:focus {
+
+
+    outline: none !important;
+
+} 
+
+body main, .fp-slider .kt-row-column-wrap {
+
+    padding-top:0 !important;
+
+}
+
+body .entry-content .alignwide {
+
+    margin-left: unset;
+    margin-right: unset;
+
+}
+
+.wp-block-button .wp-block-button__link {
+
+    border:0;
+
+}
+
+.wp-block-read-more, .row.calender-events .wp-element-button.button:not(.add_to_cart_button) {
+
+    margin-top:1em;
+    transition: 0.3s all ease-in-out;
+
+}
+
+/* Universal Margins */
+
+p, h1, h2, h3, h4, h5, h6{
+
+    margin: 1rem 0;
+
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a{
+	color: inherit;
+	text-decoration: inherit;
+}
+
+// .has-foreground-background-color a:where(:not(.wp-element-button)){
+// 	color: var(--wp--preset--color--primary);
+// }
+
+/* Slider/Product Carousel Styles */
+
+
+.slick-slider a {
+
+    text-decoration: none ;
+
+}
+
+.slick-slider .slick-slide .alignwide {
+
+    margin-left:unset;
+    margin-right:unset;
+
+}
+
+.alignfull .kt-blocks-product-carousel-block img {
+
+    width:unset;
+
+}
+
+/* SLIDER ARROWS/DOTS */
+
+body .slick-prev:before, body .slick-next:before {
+
+    font-size: 30px;
+
+}
+
+body .slick-prev {
+
+    left:-35px;
+
+}
+
+body .slick-dots li button:before {
+
+    font-size: 25px;
+
+}
+
+body .splide ul.splide__pagination.splide__pagination {
+
+    bottom: -50px;
+
+}
+
+body .splide .splide__pagination__page {
+
+
+    height: 20px;
+    width: 20px;
+
+}
+
+// body .splide .splide__arrow--prev, body .splide .splide__arrow--next {
+
+//     background: transparent;
+//     border: 0;
+//     opacity: 0.75;
+
+// }
+
+// .splide .splide__arrow--prev{
+// 	left: -2rem;
+// }
+// .splide .splide__arrow--next{
+// 	right: -2rem;
+// }
+// body .splide .splide__arrow--prev::before {
+
+//     content:'←';
+//     color: #000;
+//     font-size: 30px;
+//     font-family: 'slick';
+// }
+
+// body .splide .splide__arrow--next::before {
+
+//     content:'→';
+//     color: #000;
+//     font-size: 30px;
+//     font-family: 'slick';
+// }
+
+.pivot-promo-title {
+
+    position:relative;
+    top:-15px;
+
+}
+
+/* Block Styles */
+
+.awb .wp-block-column {
+
+    position: relative;
+    background: url('https://thepowerpath.com/wp-content/uploads/2023/05/directions-element-bkg.svg');
+    background-repeat: no-repeat;
+
+}
+
+.awb p.has-text-align-right {
+
+    position: absolute;
+    bottom: 0;
+    right: 0;  
+
+}
+
+.form_signup_wrap input[type="email"] {
+
+    line-height: 23px;
+    float: left;
+    background: #DDD;
+    width:70%;
+    font-size: 1em;
+    padding: 0.75em;
+    margin-top: 0;
+    margin-bottom: 1em;
+    border: 0;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    margin-right: 2%;
+
+}
+
+.form_signup_wrap input[type="submit"] {
+
+    width:22%;
+    padding: 0.75em 2em;
+    color: #fff;
+    font-size: 1em;
+    text-shadow: none;
+    border: none;
+	font-family: "Source Sans Pro", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    margin: 0;
+    background: #CD3B33;
+    -webkit-font-smoothing: antialiased;
+    line-height: 23px;
+
+}
+
+.form_signup_wrap label {
+
+    display: block;
+    margin-bottom:1em;
+
+}
+
+.center-thumb .kadence-post-image {
+ 
+    max-width: 150px;
+    margin:0 auto;
+
+
+}
+
+.testimonial-slide .wp-block-post-content p {
+
+    text-align: center;
+
+}
+
+.svg-sprite-wrapper, .post-template-monthly-forecast-template .xoo-wsc-basket {
+
+	display: none !important;
+
+}
+
+.ue-large .wp-block-getwid-template-post-featured-image {
+
+    position: relative;
+
+}
+
+.ue-large .wp-block-getwid-template-post-featured-image::after {
+
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+
+}
+
+.ue-large .wp-block-getwid-template-post-featured-image img {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+
+li.post.product h2.woocommerce-loop-product__title {
+
+    font-size: 1.17em;
+    text-align: left;
+
+}
+
+// .wp-element-button {
+
+//     background-color: var(--wp--preset--color--primary);
+//     border-radius: 0px;
+//     color: var(--wp--preset--color--background);
+//     font-size: var(--wp--preset--font-size--small);
+//     padding-top: 0.3rem;
+//     padding-right: 1rem;
+//     padding-bottom: 0.3rem;
+//     padding-left: 1rem;
+//     display: inline-block;
+
+// }
+
+li.post.product .price-cart-wrap-open.is-content-justification-space-around {
+
+	justify-content: left;
+
+}
+
+li.post.product:not(.wp-block-woocommerce-related-products li.post.product, .search-results li.post.product), .wp-block-getwid-post-carousel.custom-post-type-product .slick-slide {
+
+    position: relative;
+    border:2px solid #999;
+
+}
+
+.fp-slider .product a, .subcat-column p a, .woocommerce-LoopProduct-link {
+
+    text-decoration: none;
+
+}
+
+.fp-slider .splide__arrow {
+
+    z-index: 1;
+    background-color: transparent;
+    opacity: 1 !important;
+
+}
+
+.fp-slider .splide__arrow.splide__arrow--prev {
+
+    z-index: 1;
+    background-color: transparent;
+    left:-35px;
+
+}
+
+.fp-slider .splide__arrow.splide__arrow--next {
+
+    z-index: 1;
+    background-color: transparent;
+    right:-35px;
+
+}
+
+.fp-slider .splide__arrow::before {
+
+    font-size: 30px;
+    color:#000;
+    line-height: 1;
+    opacity: .75;
+    font-family: 'slick';
+
+}
+
+.fp-slider .splide__arrow.splide__arrow--prev::before {
+
+    content: '←';
+
+}
+
+.fp-slider .splide__arrow.splide__arrow--next::before {
+
+    content: '→';
+
+}
+
+li.post.product .price-cart-wrap-open .add_to_cart_button, .wp-block-getwid-post-carousel.custom-post-type-product .add_to_cart_button, .wp-block-getwid-post-carousel.custom-post-type-product .wp-block-read-more {
+
+	position:absolute;
+	bottom: 0;
+	right: 0;
+    margin-bottom: 0 !important;
+
+}
+
+.wp-block-getwid-post-carousel.custom-post-type-product .wp-block-read-more {
+
+	right: unset;
+    left:0;
+    padding:0.3rem 1rem;
+
+}
+
+li.post.product .wp-block-button .wp-block-button__link.add_to_cart_button {
+
+    padding: calc(0.667em + 2px) calc(1.333em + 2px);
+    font-size: var(--wp--preset--font-size--medium);
+
+}
+
+li.post.product .wp-block-button__link {
+    
+    padding: calc(0.667em + 2px) calc(1.333em + 2px);
+    // position: absolute;
+    bottom: 0;
+    right:0;
+
+}
+
+/* Single Jose Article Align Single Product */
+
+.post-template-wp-custom-template-single-jose-article.single li .woocommerce-loop-product__link {
+
+    margin:0 auto;
+    text-align: center;
+
+}
+
+.woocommerce-Price-amount {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+li.post.product del .woocommerce-Price-amount, .wc-block-grid__product-price del .woocommerce-Price-amount, .wc-block-featured-product__price del .woocommerce-Price-amount {
+
+    font-size: 1.3rem;
+    opacity: 0.75;
+    color:#CD3B33;
+    text-decoration: line-through;
+
+}
+
+
+.price-cart-wrap-open ins, .wc-block-featured-product__price ins, .wc-block-grid__product-price del {
+
+    text-decoration: none;
+
+}
+
+// .fa-slider .wp-block-getwid-template-post-featured-image img {
+
+//     max-width: 300px !important;
+//     max-height: 300px !important;
+//     margin: 0 auto;
+
+// }
+
+.services_wrap_jose {
+
+    background-image: url('https://thepowerpath.co/wp-content/uploads/2023/03/josestevenscolor-scaled-1.webp');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 635px;
+    background-position-x: 100%;
+    background-position-y: 50%;
+    background-color: #626078;
+}
+
+.services_wrap_store {
+
+    background-image: url(https://thepowerpath.co/wp-content/uploads/2023/03/basket-new-min-comp.webp);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 575px, cover;
+    background-position-x: 0;
+    background-position-y: 50%;
+
+}
+
+.services_wrap {
+
+    background-image:url(https://thepowerpath.co/wp-content/uploads/2023/03/pps_framedrum_partial-frame-180.webp), linear-gradient(90deg, #fff ,#a3a3a3);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 520px, cover;
+    background-position: 100%;
+
+}
+
+.services_wrap_store .wp-block-button .wp-block-button__link, .services_wrap .wp-block-button .wp-block-button__link {
+
+    text-align: left;
+    padding:0;
+
+}
+
+.wp-block-button .wp-block-button__link.has-transparent-background-color:hover {
+
+    text-decoration: underline;
+
+}
+
+.subcat-column p a:hover, .events-store-pb a:hover {
+
+    color:#FECB63;
+
+}
+
+.wp-block-button a.has-secondary-background-color:hover, .fc .fc-button-primary:hover {
+
+    background-color:#CD3B33 !important;
+
+}
+
+/* Red Text Hover Style */
+
+.smf-print-pattern .kb-svg-icon-wrap:hover, a.wp-block-read-more:hover, .row.calender-events .wp-element-button.button:not(.add_to_cart_button):hover, .kt-blocks-post-readmore:hover {
+
+    color:#cd3b33 !important;
+
+} 
+
+.form_signup_wrap input.alt-button{
+
+    transition: all 0.3s ease-in-out;
+
+}
+
+.form_signup_wrap input.alt-button:hover {
+
+    background-color: var(--wp--preset--color--foreground);
+    cursor: pointer;
+
+}
+
+.wp-block-kadence-column .wc-block-featured-product {
+
+    min-height:400px;
+
+}
+
+.post a, .wp-block-cover a, .search-results li.wp-block-post a {
+
+    text-decoration: none;
+
+}
+
+.post a.wp-block-read-more, .search-results li.wp-block-post a.wp-block-read-more, .kt-blocks-post-readmore {
+
+    // text-align: right;
+    float:right;
+
+}
+
+.kt-blocks-post-readmore {
+
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: #353460 !important;
+    padding-top: 10px !important;
+    padding-right: 16px !important;
+    padding-bottom: 10px !important;
+    padding-left: 16px !important;
+    margin-top: 20px !important;
+    margin-right: 0px !important;
+    margin-bottom: 20px !important;
+    margin-left: 0px !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+
+}
+
+.search-results .wp-block-columns:first-of-type figure.wp-block-image {
+
+    margin-bottom: 0;
+
+}
+
+.row.calender-events .wp-element-button.button:not(.add_to_cart_button) {
+
+    background-color: unset;
+    color:#353460;
+    float:right;
+    font-weight: 700;
+
+}
+
+/* Featured Store Cat - Group Heading */
+
+.wc-block-featured-category .wc-block-featured-category__wrapper {
+
+    max-width:750px;
+
+}
+
+.onsale_2up li.product {
+
+    background: #fff;
+
+}
+
+/* Browse Services/Search - Query Column Gap */
+
+.wp-block-query .wp-block-columns, .search-results .wp-block-post-template .wp-block-columns {
+
+    gap:1.5rem;
+
+}
+
+/* Single Courses Styles */
+
+.single-course .nav-prev, .single-course .nav-next {
+
+    padding:1rem;
+    background-color: #ededef;
+    float: none;
+
+}
+
+.single-course .nav-next {
+
+    text-align: right;
+
+}
+
+.single-course .post-entries {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+@media screen and (max-width:1200px) {
+
+
+    /* MAIN NAV STYLES */
+
+    #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link {
+
+        font-size: 1rem;
+
+    }
+
+    /* MAIN NAV STYLES */
+
+    #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link {
+
+        line-height: 70px;
+        height: 70px;
+
+    }
+
+    #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item, #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-column {
+
+        line-height: 1.55;
+
+    }
+
+    #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-row .mega-menu-column > ul.mega-sub-menu > li.mega-menu-item {
+
+        padding:15px;
+
+    }
+
+    #mega-menu-wrap-primary .mega-indicator {
+
+        display: none !important;
+
+    }
+
+    body .splide .splide__arrow--prev::before {
+
+        padding-right:2.9em;
+    
+    }
+    
+    body .splide .splide__arrow--next::before {
+    
+        padding-left:2.9em;
+    
+    }
+
+    //  .wp-block-query .wp-block-post-featured-image,  .wp-block-query .wp-post-image,  .wp-block-query .wp-block-post-featured-image a {
+
+    //     height: 350px !important;
+    //     width: 350px !important;
+
+    // }
+
+    body.woocommerce-cart .woocommerce, body.woocommerce-cart .wp-block-post-title, body.woocommerce-checkout .woocommerce {
+    
+        padding:2rem;
+    
+    } 
+    
+    .services_wrap_jose {
+    
+    
+        background-size: 750px;
+    
+    }
+    
+    .services_wrap_store {
+    
+    
+        background-position-x: -20%;
+        background-size: 620px;
+    
+    
+    }
+
+    /* TABLET SLIDER WIDTH */
+
+    .ue-large {
+
+        max-width: 950px !important;
+
+    }
+        
+    }
+
+
+
+    @media screen and (max-width:1050px) {
+
+
+        // August 29th 2024 Hamburger Styles
+
+        .mega-toggle-block {
+
+            background-color: var(--wp--preset--color--foreground);
+            border-radius: 25px;
+            margin-bottom: 2rem;
+
+        }
+
+        #mega-menu-wrap-primary .mega-menu-toggle .mega-toggle-block-1 .mega-toggle-animated {
+
+            padding:5px;
+
+        }
+
+        // End Aug 29th Changes
+
+            /* Homepage Video Banner Mobile */
+    
+    .home .kt-row-has-bg:first-of-type .has-x-large-font-size {
+
+        font-size: var(--wp--preset--font-size--large) !important;
+
+    }
+
+    .single-course .nav-prev, .single-course .nav-next {
+
+        font-size: smaller;
+        
+    }
+
+    /* HEADER NAV STYLES */
+
+    #mega-menu-wrap-primary .mega-indicator {
+
+        display: inline-block !important;
+    
+    }
+
+    //  .wp-block-query .wp-block-post-featured-image,  .wp-block-query .wp-post-image,  .wp-block-query .wp-block-post-featured-image a {
+
+    //         height: 265px !important;
+    //         width: 265px !important;
+    
+    // }        
+    
+    .services_wrap_jose, .services_wrap_store {
+    
+    
+        background:none;
+            
+    } 
+    
+    .services_wrap {
+    
+        background: linear-gradient(90deg, #fff ,#a3a3a3);
+    
+    }
+
+    /* TABLET SLIDER WIDTH */
+
+    .ue-large {
+
+        max-width: 750px !important;
+
+    }
+            
+    }
+    
+    @media screen and (max-width:781px) {
+
+    /* Hide Description on Mobile Menu */
+
+    .mega-menu .mega-menu-description {
+
+        display: none !important;
+
+    }
+
+    /* Image Height on Jose Books Slider */
+
+    .jose-books-slider .slick-slide, .jose-books-slider img {
+
+        height:50vh;
+        object-fit: contain;
+
+    }
+
+    /* Span Side Cart Full Width on Mobile */
+
+    .xoo-wsc-container {
+
+        width:100%;
+        max-width: 781px;
+        right:-781px;
+
+    }
+
+    .xoo-wsc-cart-active .xoo-wsc-basket {
+
+        display: none !important;
+
+    }
+
+    .wp-block-getwid-post-carousel.ue-slider-up-small .slick-dotted.slick-slider  {
+
+        padding-bottom:0;
+        
+    }
+
+    .page-what-is-shamanism .isfeatured {
+
+        top: 60px !important;
+        bottom: unset !important;
+    
+    }
+
+    //  .wp-block-query .wp-block-post-template .post .wp-block-column:first-of-type {
+
+    //     padding-right: 0 !important;
+
+    // }
+
+    body main {
+
+        padding-bottom: 0 !important;
+
+    }    
+
+    footer {
+
+        font-size: smaller;
+
+    }
+
+    /* HIDE FOOTER NAV ON MOBILE */
+    
+    footer nav {
+
+        display: none !important;
+
+    }
+    
+    .form_signup_wrap input[type="email"], .form_signup_wrap input[type="submit"] {
+    
+        display: block;
+        width: 100%;
+        
+    } 
+    
+    .form_signup_wrap {
+    
+        overflow: auto;
+    
+    }
+    
+    body.woocommerce-cart .actions .coupon {
+    
+        float: unset;
+        margin-bottom: 2rem;
+        
+    } 
+    
+    footer .wp-block-group .wp-block-group:nth-of-type(2) .is-content-justification-space-between {
+    
+        display: block;
+    
+    
+    }
+    
+    body.woocommerce-cart .shop_table thead, body.woocommerce-cart .shop_table .cart_item, body.woocommerce-checkout .woocommerce-checkout-review-order-table, body.woocommerce-checkout.woocommerce-order-received .woocommerce-table--order-details, body.woocommerce-view-order .woocommerce-table--order-details {
+    
+        font-size: smaller;
+    
+    }
+    
+    body.woocommerce-cart .woocommerce, body.woocommerce-checkout .woocommerce, body.woocommerce-cart .wp-block-post-title {
+    
+        padding: 1rem;
+    
+    }
+    
+    body.woocommerce-checkout .woocommerce-billing-fields p, body.woocommerce-checkout .woocommerce-account-fields p {
+    
+        width: 100%;
+    
+    }
+
+    // .wp-block-columns.is-layout-flex {
+
+    //     gap:0;
+
+    // }
+
+    body .gs-s-ip {
+
+        margin-bottom: 0 !important;
+
+    }
+
+    body .jose-block, body .store-block, body .services-block {
+
+        margin:0 !important;
+        border: 0;
+
+    }
+
+    /* TABLET SLIDER WIDTH */
+
+    .ue-large {
+
+        max-width: 85% !important;
+
+    }
+
+    .fa-slider .wp-block-getwid-template-post-featured-image img {
+    
+        max-width: 90%!important;
+        max-height: 90% !important;
+    
+    }
+
+    .tax-product_cat li.post.product {
+
+		// margin:1.5rem;
+        width: unset;
+
+	  }
+    
+    }
+    
+    @media screen and (max-width:500px) {
+
+    /* Homepage Video Banner Mobile/Icon Size Mobile */
+    
+    .home .kt-row-has-bg:first-of-type .has-x-large-font-size {
+
+        font-size: 24px !important;
+
+    }
+
+    .home .kt-row-has-bg:first-of-type .wp-block-getwid-icon__wrapper {
+
+        font-size: 40px !important;
+
+    }
+
+    body .woocommerce .woocommerce-notices-wrapper {
+
+        font-size: small !important;
+        
+        
+    } 
+
+    body .woocommerce .woocommerce-notices-wrapper a.wp-element-button {
+
+        display: inline-block;
+        
+        
+    }
+        
+
+    /* MAIN NAV STYLES */
+
+    #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link {
+
+        font-size: 0.9rem;
+        line-height:40px;
+        height: 40px;
+
+    }
+
+    a.mega-menu-link {
+
+        padding-bottom: 0 !important;
+        font-size: 0.9rem !important;
+
+    }
+
+    #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item, #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-column {
+
+        line-height: 1.1;
+
+    }
+
+    #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-row .mega-menu-column > ul.mega-sub-menu > li.mega-menu-item {
+
+        padding:10px;
+
+    }
+    
+    body.woocommerce-cart .coupon input[name='coupon_code'], body.woocommerce-cart .woocommerce button {
+    
+        width: 125px;
+    
+    }
+    
+    body.woocommerce-cart .shop_table thead, body.woocommerce-cart .shop_table .cart_item, body.woocommerce-checkout .woocommerce-checkout-review-order-table, .body.woocommerce-checkout .woocommerce-Price-amount, body.woocommerce-checkout.woocommerce-order-received .woocommerce-table--order-details, body.woocommerce-view-order .woocommerce-table--order-details, .body.woocommerce-view-order .woocommerce-Price-amount {
+    
+        font-size: small;
+    
+    }
+    
+    body.woocommerce-cart .woocommerce, body.woocommerce-checkout .woocommerce, body.woocommerce-cart .wp-block-post-title {
+    
+        padding: 0.5rem !important;
+    
+    }
+
+
+    h2.has-text-align-center:not(h2.has-text-align-center.wp-block-post-title) {
+
+        font-size: 1.25em;
+
+    }
+
+    .slick-slider h3, .products h2 {
+
+        font-size: 1.35rem !important;
+
+    }
+
+    body .slick-next, body .slick-prev {
+
+        display: none !important;
+
+    }
+
+    body.page-store .splide .splide__arrow--next::before {
+
+        padding-left: 2.5em;
+
+    }
+
+    body.page-store .splide .splide__arrow--prev::before {
+
+        padding-right: 2.5em;
+
+    }
+
+    body .wp-block-getwid-template-post-date {
+
+        font-size: 0.9em;
+    
+    }
+
+    .fa-slider .wp-block-getwid-template-post-featured-image img {
+    
+        max-width: 95%!important;
+        max-height: 95% !important;
+    
+    }
+
+    body .fa-slider, li.post.splide__slide {
+
+        padding:0.5em 0.5em 2em 0.5em !important;
+    
+    }
+
+
+    body h3.wp-block-heading, body h2.wp-block-heading, body h2.wp-block-post-title {
+
+        font-size: 1.5rem !important;
+
+    }
+
+    .fp-slider .price-cart-wrap-open a.add_to_cart_button, .tax-product_cat li.post.product .price-cart-wrap-open a.add_to_cart_button, .isfeatured,  .onsale, .wc-block-grid__product-onsale, .wc-block-components-product-sale-badge, li.post.product .wp-block-button .wp-block-button__link.add_to_cart_button  {
+
+        font-size: smaller !important;
+
+    }
+
+    .price-cart-wrap-open a.add_to_cart_button,  .isfeatured,  .onsale, .wc-block-grid__product-onsale, .wc-block-components-product-sale-badge, .wp-block-button .wp-block-button__link.add_to_cart_button   {
+
+        font-size: smaller !important;
+
+    }
+    
+
+}
+
+@media screen and (max-width:400px) {
+
+    .wp-block-post-content:not(.home .wp-block-post-content, .page-shamanic-practitioners .wp-block-post-content){
+
+        padding: 1rem;;
+    
+    }
+
+}
+
+/* Homepage */
+
+.home .entry-content .home-ue-ls {
+
+    padding:1.5rem !important;
+
+}
+
+
+
+/* WooCommerce Admin Style Fix Sept 28/2023 */
+
+body.wp-admin.wc-wp-version-gte-53 .select2-container--default .select2-results__option--highlighted[aria-selected], .wp-admin.wc-wp-version-gte-53 .select2-container--default .select2-results__option--highlighted[data-selected]{
+
+    background-color: #0073aa !important;
+
+}
+
+.nav-menus-php .hidden-field {
+
+    display: unset !important;
+
+}
+
+/* Gravity Forms Universal Button Style */
+
+.gform_wrapper input.button {
+
+    background-color: var(--wp--preset--color--foreground);
+    border-width: 0;
+    color: var(--wp--preset--color--background);
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: calc(0.667em + 2px);
+    cursor:pointer !important;
+    transition:0.3s all ease-in-out ;
+
+}
+
+.gform_wrapper input.button:hover {
+
+    background-color:#CD3B33;
+
+
+}
+
+/* Homepage Upcoming Events Slider - Hide Read More on Priceless Products
+
+NOTE that is this manual for each product, must be updated whenever another not priced product is added.
+
+*/
+
+.home .slick-slide .wp-block-create-block-woo-addtocart-link[href="https://thepowerpath.com/product/holistic-healer-summit-2023/"], .home .slick-slide .wp-block-create-block-woo-addtocart-link[href="https://thepowerpath.com/product/psychedelic-soul-summit-2023/"], .home .slick-slide .wp-block-create-block-woo-addtocart-link[href="https://thepowerpath.com/product/trends-2024-live-presentation/"], .home .slick-slide .wp-block-create-block-woo-addtocart-link[href="https://thepowerpath.com/product/mexico-tropical-retreat-2024/"],  .page-id-344696 .slick-slide .wp-block-create-block-woo-addtocart-link[href="https://thepowerpath.com/product/holistic-healer-summit-2023/"], .page-id-344696 .slick-slide .wp-block-create-block-woo-addtocart-link[href="https://thepowerpath.com/product/psychedelic-soul-summit-2023/"], .page-id-344696 .slick-slide .wp-block-create-block-woo-addtocart-link[href="https://thepowerpath.com/product/trends-2024-live-presentation/"], .page-id-344696 .slick-slide .wp-block-create-block-woo-addtocart-link[href="https://thepowerpath.com/product/mexico-tropical-retreat-2024/"]  {
+
+    display: none !important;
+
+}
+
+/* Fix Add to Cart/Sign Up Button Width on Related Products */
+
+body .wp-block-button.wc-block-components-product-button .wc-block-components-product-button__button {
+
+    width:unset;
+
+}
+
+/* Remove Phantom Checkout Field */
+
+body.woocommerce-checkout .woocommerce-billing-fields p:first-of-type {
+
+    display: none;
+
+}
+
+/* Remove Test Text on Lesson Page */
+
+.single-lesson .wp-site-blocks .wp-block-group p:first-of-type {
+
+    display: none;
+
+}
+.xoo-wsc-basket{
+	display: block !important;
+}
+

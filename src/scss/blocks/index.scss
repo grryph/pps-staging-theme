@@ -1,0 +1,13 @@
+//----------------------------------------
+// Gutenberg Block Styles
+// Import Core and custom Gutenberg block partials.
+//----------------------------------------
+
+// Core Gutenberg Blocks.
+@import 'core/index';
+@import 'custom-shortcodes';
+
+// overwrite getwid
+.wp-block-getwid-accordion .wp-block-getwid-accordion__header{
+	padding:1rem 0;
+}

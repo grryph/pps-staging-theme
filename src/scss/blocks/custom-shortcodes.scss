@@ -1,0 +1,39 @@
+.row.alignwide.flex.calender-events{
+	margin-bottom: 1.75em;
+	padding: var(--wp--preset--spacing--50);
+}
+
+.calender-events .column.col-1{
+	flex-basis: 40.33%;
+	padding-right: var(--wp--preset--spacing--30);
+}
+
+.calender-events .column.col-2{
+	flex-basis: 66.66%;
+	padding-left: var(--wp--preset--spacing--50);
+}
+.item-actions{
+	justify-content: space-between;
+	margin: 1rem 0;
+}
+
+.calender-events img {
+	max-height: 400px;
+}
+
+.calender-events h2 {
+	margin: 0;
+	line-height: 1;
+}
+
+@media screen and (max-width:781px){
+	.row.alignwide.flex.calender-events{
+		flex-direction: column;
+		padding: 0;
+		max-width: 500px;
+	}
+
+	.calender-events .column.col-2{
+		padding: 0;
+	}
+}

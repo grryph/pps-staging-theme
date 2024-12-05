@@ -1,0 +1,134 @@
+//--------------------------------------------------------------
+// Global Site Header
+//--------------------------------------------------------------
+.site-header {
+	@apply bg-black bg-opacity-10 py-12;
+
+	> .container {
+		@apply flex justify-between my-0;
+	}
+
+	.site-description {
+		@apply no-underline;
+	}
+
+	.site-branding {
+		a {
+			@apply no-underline;
+		}
+	}
+}
+
+/* Header Styles */
+
+/* Fix Search Styles on Audio Player Page */
+
+#kt-modal_95e1b5-12 .kt-blocks-modal-link {
+
+    color: #FFF;
+    background: #CD3B33;
+    border-color: #CD3B33;
+    border-radius: 0px;
+    font-size: 19px;
+    line-height: 24px;
+    border-width: 2px 2px 2px 2px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+/* Utility Menu */
+
+header .has-primary-background-color .is-content-justification-space-between {
+
+	gap:1em;
+
+}
+
+header .has-primary-background-color .is-content-justification-space-between svg {
+
+	width: 32px;
+	height: 32px;
+
+}
+
+header .has-primary-background-color .is-content-justification-space-between svg:hover {
+
+	fill:#fecb63;
+	transition: all 0.3s ease-in-out;
+
+}
+
+header .wp-block-search__inside-wrapper {
+
+	border:0;
+	padding:0;
+
+}
+
+header .wp-block-search__inside-wrapper input {
+
+	padding: 5px;
+
+}
+
+header .has-primary-background-color .wp-block-search__button.wp-element-button {
+
+	background-color: unset;
+	padding: 0;
+
+}
+
+header .has-primary-background-color .wp-block-search__button.wp-element-button svg {
+
+	width: 30px !important;
+	height: 30px !important;
+
+}
+
+header .wp-block-navigation__container {
+
+    gap:7rem;
+
+}
+
+header.wp-block-template-part{
+	position: fixed;
+	width: 100%;
+	max-width: 100vw;
+	top: calc(0px + var(--wp-admin--admin-bar--position-offset, 0px));
+	z-index: 10000;
+	transition: transform 0.5s ease-in-out;
+}
+
+header.nav-up{
+	transform: translateY(-100%);
+}
+
+
+@media screen and (max-width:768px) {
+
+header .wp-block-group.has-primary-background-color {
+
+	padding:0.5em;
+
+}
+
+header .has-primary-background-color .is-content-justification-space-between {
+
+	gap:0;
+
+}
+
+#searchbar {
+
+	margin-right:1em;
+	max-width: 150px;
+
+}
+
+}
+
+.header-modal-link{
+	display: flex !important;
+}

@@ -1,0 +1,131 @@
+@import 'product-cat-archive';
+@import 'cart-checkout';
+@import 'my-account';
+
+/* Online Store */
+
+/* Align Large Promo Block */
+
+.page-store .wc-block-featured-product__wrapper {
+
+    margin: 0 auto;
+    max-width: fit-content;
+
+}
+
+/* Fix Product Image Width in Sliders */
+
+.alignfull .wc-block-grid__product-image img {
+
+    width:100%;
+
+}
+
+/* Single Product */
+
+.single-product .woocommerce-breadcrumb, .single-product .wp-block-post-content, .single-product .wp-block-woocommerce-related-products {
+
+    padding:1.5rem;
+
+}
+
+.single-product .wc-block-grid__product-price {
+
+    font-size:1.6rem;
+
+}
+
+// .single-product .wp-block-add-to-cart-form {
+
+//     margin: 1rem 1rem 0 1rem;
+
+// }
+
+.single-product .quantity input {
+
+    width:100%;
+
+}
+
+@media screen and (max-width:800px) {
+
+    .single-product .single_add_to_cart_button {
+
+        padding:0.3rem 0.5rem;
+
+    }
+
+
+}
+
+
+@media screen and (max-width:500px) {
+
+    .single-product .single_add_to_cart_button {
+
+		padding:0.3rem 1rem;
+        font-size:18px;
+
+    }
+
+
+}
+
+// Quantity styling
+form.cart{
+	display: flex;
+}
+
+// .quantity{
+// 	display: flex;
+// }
+
+.woocommerce .quantity input.qty {
+	padding: 0;
+	height: 40px;
+	width: 60px;
+	border: none;
+	align-self: center;
+	margin-right: 1rem;
+}
+.woocommerce .quantity .qty {
+	width: 3.631em;
+	text-align: center;
+}
+
+// makes the reccomended prodcuts on single product page look nicer
+@media (min-width: 600px){
+	.wp-block-post-template.is-flex-container.is-flex-container.columns-3 > li{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.mbl-font-small{
+		font-size: 1rem;
+	}
+}
+
+
+// OVERRIDES OF WC-BLOCK-STYLES
+.wc-block-featured-category__description, 
+.wc-block-featured-category__link,
+.wc-block-featured-category__price,
+.wc-block-featured-category__title,
+.wc-block-featured-category__variation{
+	padding: 0 1rem 1rem;
+
+}
+//p tag showing up at top of certain woocommerce pages
+p.first-payment-date{
+	margin: 0;
+}
+
+a.add_to_cart_button[href="https://thepowerpath.com/product/one-year-shamanic-studies-program-2023-2024/"]{
+	display: none;
+}
+
+//remove loading icon from add to cart buttons
+.wp-block-button.wc-block-components-product-button .wp-block-button__link.loading::after {
+	content: "" !important;
+}
