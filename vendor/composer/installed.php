@@ -3,7 +3,7 @@
         'name' => 'noah-blaze/touchstonesfse',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '03f02b155ffb427a90dc05f6c53ac33196750f33',
+        'reference' => '4de48e7ea53e2f47293f8e449a1736ee0a577560',
         'type' => 'wordpress-theme',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -157,7 +157,7 @@
         'noah-blaze/touchstonesfse' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '03f02b155ffb427a90dc05f6c53ac33196750f33',
+            'reference' => '4de48e7ea53e2f47293f8e449a1736ee0a577560',
             'type' => 'wordpress-theme',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
