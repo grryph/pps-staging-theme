@@ -560,12 +560,6 @@ li.post.product .wp-block-button__link {
 
 /* FunnelKit Cart/Checkout/Thank You Styles */
 
- .woocommerce-checkout .fkwcs_stripe_gpay_icons img, .woocommerce-checkout .fkwcs_stripe_apple_pay_icons img {
-
-    margin:15px !important;
-
-}
-
 .woocommerce-Price-amount:not(.fkcart-modal .woocommerce-Price-amount) {
     font-weight: 600;
     font-size: 2rem;
@@ -594,7 +588,7 @@ li.post.product del .woocommerce-Price-amount, .wc-block-grid__product-price del
 
 }
 
-.woocommerce-checkout .wlr_points_rewards_earn_points, .woocommerce-checkout .zoom-webinar-registrant-section, .woocommerce-checkout .fkwcs_stripe_icons img {
+.woocommerce-checkout .wlr_points_rewards_earn_points, .woocommerce-checkout .zoom-webinar-registrant-section, .woocommerce-checkout .fkwcs_stripe_icons img,  .woocommerce-checkout .fkwcs_stripe_gpay_icons img, .woocommerce-checkout .fkwcs_stripe_apple_pay_icons img {
 
     display: none !important;
 
