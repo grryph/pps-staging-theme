@@ -560,6 +560,12 @@ li.post.product .wp-block-button__link {
 
 /* FunnelKit Cart/Checkout/Thank You Styles */
 
+.woocommerce-checkout #coupons_list .sc-coupon {
+
+    max-width: 250px !important;
+
+}
+
 .woocommerce-Price-amount:not(.fkcart-modal .woocommerce-Price-amount) {
     font-weight: 600;
     font-size: 2rem;
