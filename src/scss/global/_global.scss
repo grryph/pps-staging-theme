@@ -627,9 +627,9 @@ li.post.product del .woocommerce-Price-amount, .wc-block-grid__product-price del
 
 }
 
-.woocommerce-checkout .wc-saved-payment-methods ul li {
+.woocommerce-checkout ul.wc-saved-payment-methods li {
 
-    display: block;
+    display: block !important;
 
 }
 
