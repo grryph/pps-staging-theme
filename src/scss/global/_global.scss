@@ -610,14 +610,9 @@ li.post.product del .woocommerce-Price-amount, .wc-block-grid__product-price del
 
 .woocommerce-checkout .button {
 
-    background-color: var(--wp--preset--color--foreground);
-    border-width: 0;
-    color: var(--wp--preset--color--background);
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-    padding: calc(0.667em + 2px) calc(1.333em + 2px);
-    text-decoration: none;
+    background: rgb(53, 52, 96) !important;
+    color: #fff !important;
+    
 }
 
 // .fa-slider .wp-block-getwid-template-post-featured-image img {
