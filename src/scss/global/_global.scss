@@ -560,7 +560,7 @@ li.post.product .wp-block-button__link {
 
 /* FunnelKit Cart/Checkout/Thank You Styles */
 
-.woocommerce-checkout .fkwcs_stripe_icons img {
+.woocommerce-checkout .fkwcs_stripe_icons img, .woocommerce-checkout .fkwcs_stripe_gpay_icons img, .woocommerce-checkout .fkwcs_stripe_apple_pay_icons img {
 
     margin:15px !important;
 
