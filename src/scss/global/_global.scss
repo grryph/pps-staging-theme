@@ -627,9 +627,18 @@ li.post.product del .woocommerce-Price-amount, .wc-block-grid__product-price del
 
 }
 
+.woocommerce-checkout ul.wc-saved-payment-methods  {
+
+    padding: 0 !important;
+
+}
+
+
 .woocommerce-checkout ul.wc-saved-payment-methods li {
 
     display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
 
 }
 
